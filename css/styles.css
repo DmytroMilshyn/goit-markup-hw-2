@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #fff;
     /* line-height: 1.5;  */
@@ -30,15 +30,15 @@ h6 {
     margin: 0;
 } */
 
-/* ul {
+.list {
     margin: 0;
     padding: 0;
     list-style: none;
-}  */
+} 
 
-/* li {
+.item {
     list-style-type: none;
-} */
+}
 
 /* button {
     cursor: pointer;
@@ -49,10 +49,10 @@ h6 {
     border: none;
 } */
 
-/* a {
+.link {
     text-decoration: none;
     color: var(--secondary-text-color);
-} */
+}
 
 /* a:hover,
 a:focus {
