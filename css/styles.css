@@ -179,7 +179,7 @@ text-decoration: none;
 
 .btn:focus,
 .btn:hover {
-    background: var(--primary-bg-color);
+    background: var(--ocean-color);
     color: var(--primary-text-color);
 }
 
