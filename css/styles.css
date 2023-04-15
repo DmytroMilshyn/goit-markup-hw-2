@@ -114,15 +114,13 @@ body {
     list-style-type: none;
 }
 
-.header-item {
-    letter-spacing: 0.02;
-}
 .header-link {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     line-height: 1.5;
     text-decoration: none;
     color: var(--secondary-text-color);
+    letter-spacing: 0.02;
 }
 
 .header-link:hover,
@@ -145,6 +143,10 @@ text-decoration: none;
     margin: 0 0 0 auto;
     padding: 0;
     list-style-type: none;
+}
+
+.adr {
+    font-style: normal;
 }
 
 /*!------------------------------------------------- hero  */
