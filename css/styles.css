@@ -114,6 +114,9 @@ body {
     list-style-type: none;
 }
 
+.header-item {
+    letter-spacing: 0.02;
+}
 .header-link {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
