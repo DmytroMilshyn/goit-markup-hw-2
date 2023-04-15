@@ -6,6 +6,7 @@
     --primary-bg-color: #fff;
     --success-color: #31D0AA;
     --accent-color:#E7E9FC;
+    --logo2-color: #2e2f42;
 }
 
 body {
@@ -90,7 +91,7 @@ body {
 }
 
 .logo-2 {
-    color: var(--primary-text-color);
+    color: var(--logo2-color);
 }
 
 .hero-title {
@@ -121,7 +122,7 @@ body {
     line-height: 1.5;
     text-decoration: none;
     color: var(--secondary-text-color);
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 }
 
 .header-link:hover,
@@ -133,6 +134,7 @@ body {
 line-height: 1.5;
 color: var(--primary-text-color);
 text-decoration: none;
+letter-spacing: 0.02em;
 }
 .header-link-contant:hover,
 .header-link-contant:focus {
@@ -276,6 +278,9 @@ margin-bottom: 72px;
 text-align: center;
 }
 
+.team-text {
+    color: var(--primary-text-color);
+}
 .member-item {
 list-style-type: none;
 background: #FFFFFF;
@@ -307,7 +312,6 @@ padding-bottom: 32px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--secondary-text-color); 
 }
 
 /* .member-icon-list {
